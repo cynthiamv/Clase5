@@ -1,0 +1,99 @@
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  font-weight: bolder;
+}
+
+.header{
+  background-color: #343a40;
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.titulo{
+  display: inline-block;
+  margin-right: 550px;
+  margin-left: 130px;
+  font-size: 25px;
+}
+
+.menu{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 15px;
+  color: #FFF;
+}
+
+.menu a{
+  color: #FFF;
+}
+
+
+.contenido{
+  padding-top: 30px;
+  background-color:  #1abc9c;
+  height: 550px;
+  text-align: center;
+}
+
+
+.imagen-central{
+  width: 225px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 17px;
+}
+
+
+.portfolio{
+  height: 700px;
+  text-align: center;
+  background-color: #FFF;
+  color: #343a40;
+  line-height: 20px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+.imagen{
+  display: inline-block;
+  margin: 5px;
+}
+
+.imagen img{ 
+  width: 375px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.about{
+  background-color: #1abc9c;
+  text-align: center;
+  height: 400px;
+  padding: 50px;
+}
+
+hr{
+  width: 7%;
+}
+
+.parrafo{
+  display: inline-block;
+  width: 350px;
+  text-align: left;
+  height: 200px;
+  vertical-align: top;
+  padding: 10px 15px;
+  color: #FFF;
+  margin-top: 15px;
+  line-height: 30px;
+}

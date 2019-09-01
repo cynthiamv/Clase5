@@ -16,15 +16,15 @@
     </div>
 
     <div class="menu">
-      <a href="#portfolio" style="text-decoration: none">PORTFOLIO</a>
-    </div>
+      <h4><a href="#portfolio" style="text-decoration: none">PORTFOLIO</a></h4>
 
-    <div class="menu">
-      <a href="#about" style="text-decoration: none">ABOUT</a>
-    </div>
 
-    <div class="menu">
-      CONTACT
+
+      <h4><a href="#about" style="text-decoration: none">ABOUT</a></h4>
+
+
+
+      <h4><a href="#contacto" style="text-decoration: none">CONTACT</a></h4>
     </div>
 
   </div>
@@ -70,6 +70,40 @@
     <div class="parrafo">You can create you own custom avatar for the dividers, and add your email address to the
       contact form to make
       it fully functional!</div>
+
+  </div>
+
+  <div id="contacto">
+    
+    <h3><a class="contactme" name="contacto">CONTACT ME</a></h3>
+
+    <hr>
+
+    <form action="/contacto" method="post">
+
+      <div class="opcion">
+        <input type="text" placeholder="Nombre" name="nombre">
+      </div>
+
+      <div class="opcion">
+        <input type="email" placeholder="Email Address" name="email">
+      </div>
+
+      <div class="opcion">
+        <input type="number" placeholder="Phone Number" name="telefono">
+      </div>
+
+      <div class="opcion">
+        <textarea name="mensaje" placeholder="Message" cols="30" rows="6"></textarea>
+      </div>
+
+      <div class="submit">
+        <input type="submit" name="send" value="Send">
+      </div>
+
+    </form>
+
+
 
   </div>
 

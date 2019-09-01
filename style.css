@@ -8,22 +8,32 @@ body{
 .header{
   background-color: #343a40;
   height: 70px;
-  padding-top: 20px;
-  padding-left: 50px;
+  position: fixed;
+  width: 100%;
 }
 
 .titulo{
   display: inline-block;
-  margin-right: 550px;
-  margin-left: 130px;
   font-size: 25px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
 }
 
 .menu{
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+
+.menu a{
+  margin-right: 10px;
+}
+
+h4{
   display: inline-block;
-  margin-right: 20px;
-  font-size: 15px;
   color: #FFF;
+  margin-right: 5px;
 }
 
 .menu a{
@@ -32,9 +42,9 @@ body{
 
 
 .contenido{
-  padding-top: 30px;
+  padding-top: 100px;
   background-color:  #1abc9c;
-  height: 550px;
+  height: 570px;
   text-align: center;
 }
 
@@ -96,4 +106,56 @@ hr{
   color: #FFF;
   margin-top: 15px;
   line-height: 30px;
+}
+
+#contacto{
+  height: 650px;
+  text-align: center;
+  line-height: 5px;
+  padding-top: 20px;
+}
+
+.contactme{
+  color: #343a40;
+  font-weight: bold;
+}
+
+input:not([type=submit]){ 
+  width: 500px;
+  height: 30px;
+  font-size: 20px;
+  border:none;
+  border-bottom: 1px solid lightgray;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.opcion{
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+textarea{
+  width: 500px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+input[type=submit] {
+  border: none;
+  background:#1abc9c; 
+  width: 100px;
+  height: 65px;
+  position: relative;
+  top: 30px;
+  right: 200px;
+  font-size: 20px;
+  color: #FFF;
+  border-radius: 10px;
+}
+
+input[type=submit]:hover {
+  background: #1f9c83;
 }

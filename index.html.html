@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
   <title>Mi CV online</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -10,7 +12,12 @@
 
 <body>
 
-  <div class="header">
+
+   <!---------------------------------------------------------------
+    -------------------------- HEADER ------------------------------
+    --------------------------------------------------------------->
+
+  <nav>
     <div class="titulo">
       ADA ONLINE
     </div>
@@ -19,29 +26,39 @@
       <h4><a href="#portfolio" style="text-decoration: none">PORTFOLIO</a></h4>
 
 
-
       <h4><a href="#about" style="text-decoration: none">ABOUT</a></h4>
-
 
 
       <h4><a href="#contacto" style="text-decoration: none">CONTACT</a></h4>
     </div>
 
-  </div>
+  </nav>
 
 
-  <div class="contenido">
+
+  <!---------------------------------------------------------------
+    ------------------- CONTENIDO PRINCIPAL -----------------------
+    --------------------------------------------------------------->
+
+  <section class="contenido">
+
     <img class="imagen-central" src="./img/foto.svg" alt="html y css">
 
     <h1>HTML Y CSS</h1>
 
     <h2>Aprendiendo las bases de front end</h2>
-  </div>
+
+  </section>
 
 
-  <div class="portfolio">
 
-    <h3><a name="portfolio">PORTFOLIO</a></h3>
+  <!---------------------------------------------------------------
+    ------------------------ PORTFOLIO ----------------------------
+    --------------------------------------------------------------->
+
+  <section class="portfolio" id="portfolio">
+
+    <h3>PORTFOLIO</h3>
 
     <hr>
 
@@ -56,24 +73,38 @@
       <img src="./img/safe.png" alt="">
       <img src="./img/submarine.png" alt="">
     </div>
-  </div>
 
-  <div class="about">
-    <h3><a name="about">ABOUT</a></h3>
+  </section>
+
+
+
+  <!---------------------------------------------------------------
+    ------------------------ ABOUT --------------------------------
+    --------------------------------------------------------------->
+
+
+  <section class="about" id="about">
+
+    <h3>ABOUT</h3>
 
     <hr>
 
-    <div class="parrafo">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+    <article class="parrafo">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
       complete source
-      files including HTML, CSS and JavaScript as well as optional SASS stylesheets for easy customization.</div>
+      files including HTML, CSS and JavaScript as well as optional SASS stylesheets for easy customization.</article>
 
-    <div class="parrafo">You can create you own custom avatar for the dividers, and add your email address to the
+    <article class="parrafo">You can create you own custom avatar for the dividers, and add your email address to the
       contact form to make
-      it fully functional!</div>
+      it fully functional!</article>
 
-  </div>
+    </section>
 
-  <div id="contacto">
+
+    <!---------------------------------------------------------------
+    -------------------------- CONTACTO -----------------------------
+    ---------------------------------------------------------------->
+
+  <section class="contacto" id="contacto">
     
     <h3><a class="contactme" name="contacto">CONTACT ME</a></h3>
 
@@ -104,8 +135,7 @@
     </form>
 
 
-
-  </div>
+  </section>
 
 </body>
 
